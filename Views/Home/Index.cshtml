@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Random Generator";
+}
+
+
+<div class="jumbotron text-center">
+    <h1 class="display-4">Random Passcode Generator</h1>
+    <h3>Random Passcode (passcode #@ViewBag.Count)</h3>
+    <textarea name="" id="" cols="30" rows="1"> @ViewBag.PassCode </textarea>
+    <a href="/"><button>Generate</button></a>
+</div>
